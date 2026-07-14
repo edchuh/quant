@@ -26,4 +26,4 @@ You can find examples, guides and tutorials in the respective folders on [Goldma
 
 ## Help
 
-Please reach out to `gs-quant@gs.com` with any questions, comments or feedback.
+Please reach out to `quant@gs.com` with any questions, comments or feedback.
