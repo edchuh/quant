@@ -6,7 +6,7 @@ It is created and maintained by quantitative developers (quants) at Goldman Sach
 
 In order to access the APIs you will need a client id and secret.  These are available to institutional clients of Goldman Sachs.  Please speak to your sales coverage or Marquee Sales for further information. 
 
-Please refer to [Goldman Sachs Developer](https://developer.gs.com/docs/gsquant/) for additional information.
+Please refer to (https://developer.gs.com/docs/gsquant/) for additional information.
 
 ## Requirements
 
