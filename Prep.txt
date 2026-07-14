@@ -1,0 +1,273 @@
+The SFM role is preferable only when the interview confirms all three:
+
+You will work directly and repeatedly with portfolio managers.
+
+You can own meaningful systems or research from conception through implementation.
+
+Strong strategists can move closer to portfolio construction, signals and investment decisions over time.
+
+What must be added through practice
+1. Five fully specified stories
+Prepare these in much greater depth than the deck currently provides:
+
+A P&L mismark or valuation discrepancy you identified
+
+Your exact contribution to Polaris
+
+A production incident or urgent desk problem
+
+A disagreement with a trader or another technical team
+
+An example of ownership, failure, or difficult feedback
+
+For each one, write down:
+
+Initial symptom
+
+Financial or operational risk
+
+Your hypothesis
+
+Data examined
+
+Code or analytics you personally produced
+
+Root cause
+
+Validation process
+
+People involved
+
+Final result
+
+Permanent control added
+
+What you would do differently
+
+Avoid disclosing confidential information, but do not remain so vague that the interviewer cannot evaluate your work.
+
+2. Live coding and SQL
+The deck discusses programming well, but reading programming answers is not equivalent to demonstrating programming skill.
+
+Complete at least four timed exercises:
+
+Retrieve the latest position for each trade using ROW_NUMBER()
+
+Reconcile two risk tables with missing and duplicated records
+
+Build a pandas P&L attribution by book, trade, and risk factor
+
+Detect stale or anomalous market data and produce quality flags
+
+Be prepared to explain:
+
+Time and memory complexity
+
+Vectorization versus loops
+
+Duplicate-key behavior in joins
+
+Handling nulls and revisions
+
+Unit testing
+
+Logging and observability
+
+Why the implementation is safe for production
+
+3. Whiteboard system design
+Practice drawing this without notes:
+
+
+Trades and positions
+        ↓
+Normalization and reference data
+        ↓
+Versioned market-data snapshot
+        ↓
+Pricing and risk calculation
+        ↓
+Portfolio aggregation
+        ↓
+Persistence and caching
+        ↓
+API
+        ↓
+PM dashboard
+Then add:
+
+Incremental versus full revaluation
+
+Event timestamps
+
+Data lineage
+
+Stale-data handling
+
+Failed-calculation behavior
+
+Reconciliation
+
+Entitlements
+
+Monitoring
+
+Replay
+
+Disaster recovery
+
+Model and configuration versioning
+
+You should be able to present this in five minutes and then defend design choices for another ten minutes.
+
+4. Numerical technical drills
+You should calculate—not merrely describe—the following:
+
+FX forward from spot and two interest rates
+
+NDF settlement amount under both quote directions
+
+DV01 using bump-and-reprice
+
+First- and second-order P&L using delta and gamma
+
+Carry and roll-down
+
+A simple OIS curve bootstrap
+
+P&L attribution from prior and current market snapshots
+
+Cross-currency-basis impact on valuation
+
+The existing answers are conceptually sound, but the interviewer may convert them into numerical follow-ups.
+
+Defending the research claims
+This may be your largest interview risk.
+
+Claims such as 68% annualized return, Sharpe 2.3, 80% expected win rate against AlphaGo Zero, and being the first person to achieve a particular result against world champions are impressive but invite intense scrutiny.
+
+For the equity strategy, prepare:
+
+Exact sample period
+
+Number of observations
+
+Universe
+
+Rebalancing frequency
+
+Gross and net returns
+
+Transaction-cost assumptions
+
+Shorting and borrow assumptions
+
+Maximum drawdown
+
+Turnover
+
+Train/test separation
+
+Number of variants tested
+
+Survivorship and look-ahead controls
+
+Whether the 68% was in-sample or out-of-sample
+
+How the Sharpe confidence interval was estimated
+
+For the Go research, prepare:
+
+Exact benchmark and testing environment
+
+Number of games
+
+Hardware differences
+
+Statistical uncertainty
+
+Whether the opponent was the official AlphaGo Zero system or an implementation estimated at that strength
+
+Your exact individual contribution
+
+Independent verification
+
+Do not make a claim stronger than the evidence supports. SFM explicitly emphasizes intellectual rigor, accountability, transparency, smart risk-taking, and humility. 
+
+Soros Fund Management
++1
+
+Do not try to master all 100 equally
+For a 30–45-minute technical conversation, concentrate approximately 70% of your preparation on these 15 questions:
+
+Walk me through your background.
+
+Why SFM and why QDS?
+
+Why leave SMBC now?
+
+What have you personally built for Polaris?
+
+Tell me about a P&L mismark you prevented.
+
+Describe a valuation anomaly you diagnosed.
+
+Design a real-time P&L and risk platform.
+
+How would you reconcile two conflicting risk systems?
+
+Derive an FX forward and explain cross-currency basis.
+
+Explain how you construct and validate an OIS curve.
+
+Describe your best Python project.
+
+Write SQL to retrieve the latest position per trade.
+
+Explain your Sharpe-ratio research and its limitations.
+
+Describe a disagreement or mistake.
+
+Why should SFM overlook the degree and tenure gaps?
+
+The other 85 questions should provide coverage and follow-up preparation, not memorized scripts.
+
+Five-day execution standard
+Day 1: Finalize introduction, motivation, and five experience stories.
+
+Day 2: Rates, FX, curves, P&L, risk, and numerical calculations.
+
+Day 3: Python, SQL, testing, and one timed coding session.
+
+Day 4: System design, backtesting, research claims, AI applications, and behavioral questions.
+
+Day 5: Two full mocks: one technical and one combined technical/HR simulation.
+
+The second mock should be deliberately adversarial, with repeated questions such as “What did you do?”, “How do you know?”, and “What evidence supports that?”
+
+
+
+SFM appeals to me because it combines a hedge-fund investment mindset with permanent, flexible capital and a highly institutional technology and risk platform. The firm can act decisively when conviction is high, but it is not constrained to one strategy, asset class, or short evaluation horizon.
+
+The QDS role is particularly attractive because it sits close to portfolio managers and connects quantitative research, real-time P&L and risk, signal implementation, and production technology. That is a direct extension of what I currently enjoy most—working with rates and FX traders, diagnosing valuation and P&L issues in real time, and improving the systems that support risk decisions.
+
+I am also drawn to the owner’s-mindset and constructive-debate culture. My strongest contributions have come when I questioned an output, investigated the underlying cause, communicated across teams, and improved the process rather than simply producing a one-time answer.
+
+
+
+
+
+
+
+
+I am naturally drawn to cultures that value intellectual rigor, evidence, and independent thinking. My approach is highly analytical: I prefer to form decisions through research, data, and a clear understanding of expected value rather than relying primarily on intuition.
+
+At the same time, I recognize that markets do not offer certainty. The objective is not to eliminate uncertainty, but to determine whether an opportunity has a genuine edge, understand the assumptions behind that edge, and manage the downside when those assumptions are wrong. I see quantitative analysis as a way to make investment judgment more disciplined, transparent, and repeatable.
+
+My experience playing Go has shaped this mindset. I am more of a strategic planner than someone who focuses only on immediate calculations. I think about positioning, second-order consequences, how an opponent may respond, and how small advantages can compound over time. I approach investment and quantitative research similarly: understand the structure of the problem, identify the key drivers, test them rigorously, and adapt as new information arrives.
+
+In my next role, I want to build something that I can genuinely take ownership of—whether that is a research methodology, a risk framework, a trading signal, or a portfolio-management tool. I am most motivated when I can understand a process deeply, improve it, and see it influence real decisions.
+
+I also enjoy reverse-engineering successful approaches. That does not mean copying an outcome; it means identifying which components of a process are genuinely responsible for its success, testing whether they are robust, and finding ways to improve them. The culture I am looking for is one where people can challenge existing methods constructively, support their views with evidence, and remain humble enough to change their minds when the evidence changes.
+
+analytics are taken extremely seriously, but where the purpose of analytics is to improve judgment under uncertainty rather than claim certainty.
